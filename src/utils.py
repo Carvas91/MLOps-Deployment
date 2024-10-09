@@ -4,6 +4,7 @@ import pandas as pd
 import numpy as np
 import dill
 from src.exception import CustomException
+from sklearn.metrics import r2_score
 
 
 
