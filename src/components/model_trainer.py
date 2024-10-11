@@ -58,6 +58,7 @@ class Model_trainer:
                     # 'max_features':['sqrt','log2',None],
                     'n_estimators': [8,16,32,64,128,256]
                 },
+                "K Neighbors Regressor": {},
                 "XGBoost":{
                     # 'loss':['squared_error', 'huber', 'absolute_error', 'quantile'],
                     'learning_rate':[.1,.01,.05,.001],
